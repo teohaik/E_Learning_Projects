@@ -10,13 +10,17 @@ public class Student {
     }
 	
 	public Student(String aName, String aCode){
-		name = aName;
-		code = aCode;
-	}
+        name = aName;
+        code = aCode;
+    }
 	
 	public String toString(){
 		return "Student "+name+" - "+code;
 	}
+
+    public void methodFromTeo(){
+        System.out.println("Foo");
+    }
 
 
 }
